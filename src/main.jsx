@@ -12,17 +12,20 @@ const stages=[
 {id:10,title:'Validação final',icon:'🧪',goal:'Descobrir falhas antes de qualquer uso real.',tools:['Matriz de testes','Multímetro','Cronômetro','2 contas de teste'],steps:['Falha de Wi-Fi.','Queda de energia/reinício.','RTC incorreto.','Pote errado/ausente.','Sensor travado.','Evento duplicado.','Mudança de prescrição.','Acessibilidade.','Limpeza/manutenção.','Revisão regulatória antes da comercialização.'],test:'Nenhuma falha crítica aberta; limitações documentadas e testes reproduzíveis.',prompt:'Crie matriz de validação do ZeloDose com precondição, passos, esperado, obtido e aprovado/reprovado. Priorize segurança, falhas offline, acesso indevido e erro humano.'}
 ];
 const shop=[
-['ESP32-S3 + tela touch 2,8”','1','Smart Kits','https://www.smartkits.com.br/placa-esp32-s3-display-2-8-240x320-touchscreen-capacitivo'],
-['PCF8574 expansor I2C','4','Eletrogate','https://www.eletrogate.com/modulo-expansor-i2c-pcf8574'],
-['Reed switch','30','Eletrogate','https://www.eletrogate.com/sensor-interruptor-magnetico-reed-switch'],
-['WS2812B 30 LEDs/m','1 m','Smart Kits','https://www.smartkits.com.br/fita-led-rgb-enderecavel-ws2812b'],
-['RTC DS3231 com bateria','1','RoboCore','https://www.robocore.net/outros-componentes-eletronicos/real-time-clock-rtc-ds3231'],
-['Fonte 5V 3A USB-C','1','MakerHero','https://www.makerhero.com/produto/fonte-dc-chaveada-5v-3a-usb-tipo-c/'],
-['PETG 1 kg','1','Mercado Livre - busca','https://lista.mercadolivre.com.br/filamento-petg-1kg'],
-['DFPlayer Mini','1','Mercado Livre - busca','https://lista.mercadolivre.com.br/dfplayer-mini'],
-['Ímã neodímio pequeno','30','Mercado Livre - busca','https://lista.mercadolivre.com.br/ima-neodimio-pequeno'],
-['Protoboard + jumpers','1 kit','Mercado Livre - busca','https://lista.mercadolivre.com.br/protoboard-jumpers']
-];
+['ESP32 com tela touch 2,8”','1','Mercado Livre — conferir controlador/pinout','https://www.mercadolivre.com.br/placa-de-desenvolvimento-esp32-com-tela-tactil-resistiva-de/p/MLB2042985753'],
+['PCF8574 expansor I2C','4','Mercado Livre — busca específica','https://lista.mercadolivre.com.br/pcf8574-i2c'],
+['Reed switch','30','Mercado Livre — busca específica','https://lista.mercadolivre.com.br/reed-switch-arduino'],
+['LED WS2812B 5V','30','Mercado Livre — busca específica','https://lista.mercadolivre.com.br/ws2812b-5v'],
+['RTC DS3231','1','Mercado Livre — resultados DS3231','https://lista.mercadolivre.com.br/modulo-rtc-real-time-clock-ds3231'],
+['DFPlayer Mini','1','Mercado Livre — resultados DFPlayer','https://lista.mercadolivre.com.br/modulo-mp3-dfplayer-mini-player-arduino'],
+['Fonte 5V 3A','1','Mercado Livre — busca 5V 3A','https://lista.mercadolivre.com.br/fonte-5v-3a'],
+['PETG 1,75 mm 1 kg','1','Mercado Livre — resultados PETG','https://lista.mercadolivre.com.br/filamento-petg-1kg-1.75'],
+['Ímã neodímio pequeno','30','Mercado Livre — busca específica','https://lista.mercadolivre.com.br/ima-neodimio-pequeno'],
+['Kit protoboard + jumpers','1','Mercado Livre — busca específica','https://lista.mercadolivre.com.br/kit-protoboard-jumpers'],
+['Alto-falante 3W 4/8 ohms','1','Mercado Livre — busca específica','https://lista.mercadolivre.com.br/alto-falante-3w-8-ohms'],
+['Botão de pressão grande','3','Mercado Livre — busca específica','https://lista.mercadolivre.com.br/botao-push-button-grande'],
+['Parafusos M3 + insertos térmicos','1 kit','Mercado Livre — busca específica','https://lista.mercadolivre.com.br/inserto-termico-m3-impressao-3d']
+]
 const videos=[
 ['Fusion 360 do zero — Pró Makers','https://www.youtube.com/watch?v=g5vOgvgUuf8','Assista antes do primeiro CAD.'],
 ['Fusion 360 para impressão 3D — Amado 3D','https://www.youtube.com/watch?v=5f2FS0f2jyA','Faça a caixa do vídeo antes da bandeja ZeloDose.'],
